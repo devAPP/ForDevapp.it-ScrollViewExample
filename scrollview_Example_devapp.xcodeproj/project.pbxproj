@@ -14,7 +14,7 @@
 		EEF3FEEC160EFCF6006783D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FEEB160EFCF6006783D7 /* main.m */; };
 		EEF3FEF0160EFCF6006783D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FEEF160EFCF6006783D7 /* AppDelegate.m */; };
 		EEF3FEF3160EFCF6006783D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FEF2160EFCF6006783D7 /* ViewController.m */; };
-		EEF3FEF6160EFCF6006783D7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF3FEF4160EFCF6006783D7 /* ViewController.xib */; };
+		EEF3FEFD160EFD12006783D7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF3FEFC160EFD11006783D7 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		EEF3FEEF160EFCF6006783D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEF3FEF1160EFCF6006783D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EEF3FEF2160EFCF6006783D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EEF3FEF5160EFCF6006783D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EEF3FEFC160EFD11006783D7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				EEF3FEEF160EFCF6006783D7 /* AppDelegate.m */,
 				EEF3FEF1160EFCF6006783D7 /* ViewController.h */,
 				EEF3FEF2160EFCF6006783D7 /* ViewController.m */,
-				EEF3FEF4160EFCF6006783D7 /* ViewController.xib */,
+				EEF3FEFC160EFD11006783D7 /* ViewController.xib */,
 				EEF3FEE6160EFCF6006783D7 /* Supporting Files */,
 			);
 			path = scrollview_Example_devapp;
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF3FEEA160EFCF6006783D7 /* InfoPlist.strings in Resources */,
-				EEF3FEF6160EFCF6006783D7 /* ViewController.xib in Resources */,
+				EEF3FEFD160EFD12006783D7 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +176,6 @@
 				EEF3FEE9160EFCF6006783D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EEF3FEF4160EFCF6006783D7 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF3FEF5160EFCF6006783D7 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

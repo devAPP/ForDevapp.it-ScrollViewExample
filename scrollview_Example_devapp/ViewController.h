@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+
+
+@property (weak, nonatomic) IBOutlet UITextField *indexField;
+
+- (IBAction)changeColorButtonPressed:(UIButton *)sender;
+- (IBAction)removeButtonPressed:(id)sender;
 @end
